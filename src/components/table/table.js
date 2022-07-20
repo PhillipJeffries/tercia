@@ -60,7 +60,7 @@ const Table = ({items, deleteItem}) => {
                 </tbody>
                 <tfoot>
                 <tr>
-                    <td colSpan="2"></td>
+                    <td colSpan="2">итого</td>
                     <td>{priceSum} $</td>
                     <td>{countSum}</td>
                 </tr>
